@@ -16,5 +16,9 @@ export class dbzComponent {
         name:'Vegeta',
         power:40000,
         src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSfdmRr9o5XvjHeDpuknHYzZvEqdfi6SI_Kg&s"
+    },{
+        name:'Trunks',
+        power:5000,
+        src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8qarIDJMM4SE52NjuPKu-R_PN6ezc6v4XDg&s"
     }];
 }
