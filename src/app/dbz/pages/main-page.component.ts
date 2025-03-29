@@ -21,4 +21,13 @@ export class dbzComponent {
         power:5000,
         src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8qarIDJMM4SE52NjuPKu-R_PN6ezc6v4XDg&s"
     }];
+
+    onNewCharacter(character:Character):void{
+        this.characters.push(character);
+    }
+
+    onDeleteCharacter(index:number):void{
+        console.log({index});
+        this.characters.splice(index,1);
+    }
 }
