@@ -15,9 +15,9 @@ export class ListComponent {
     src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8qarIDJMM4SE52NjuPKu-R_PN6ezc6v4XDg&s"
   }]
   @Output()
-  public onDeleteId:EventEmitter<number>=new EventEmitter();
+  public onDeleteId:EventEmitter<string>=new EventEmitter();
 
-  onDeletCharacter(index:number):void{
-    this.onDeleteId.emit(index);
+  deleteById(id:string):void{
+    this.onDeleteId.emit(id);
   }
 }

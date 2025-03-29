@@ -20,6 +20,6 @@
             <span>{{character.power}}</span>
             <img class="w-25 col" src={{character.src}} alt={{character.name}}>
         </div>
-        <button class="btn btn-danger" (click)="onDeletCharacter(i)">X</button>
+        <button class="btn btn-danger" (click)="deleteById(character.id!)">X</button>
     </li>
 </ul>
